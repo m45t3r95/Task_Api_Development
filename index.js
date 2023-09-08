@@ -5,7 +5,7 @@ const dbConnect = require('./db_connect');
 
 dbConnect();
 
-app.listen(4444,()=>{
+app.listen(3000,()=>{
     console.log("Server is running")
 })
 
